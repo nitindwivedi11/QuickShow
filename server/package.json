@@ -19,7 +19,8 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "inngest": "^3.44.3",
-    "mongoose": "^8.13.1"
+    "mongoose": "^8.13.1",
+    "serialize-error-cjs": "^0.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
