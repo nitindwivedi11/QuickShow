@@ -18,7 +18,7 @@ app.use(clerkMiddleware())
 
 // api route endpoint
 app.get('/',(req,res)=>res.send('server is live '))
-app.use('/api/inngest',serve({client:inngest, functions})) // http endpoint for inngest
+app.use('/api/inngest',serve({client:inngest, functions})) //m http endpoint for inngest
 
 
 // start backend server (app)
